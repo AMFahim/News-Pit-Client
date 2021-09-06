@@ -5,6 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import Home from './Components/Home/Home/Home';
+import AddArticle from './Components/Dashboard/AddArticle/AddArticle';
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home/>
+        </Route>
+        <Route path="/addArticle">
+          <AddArticle/>
         </Route>
       </Switch>
     </Router>

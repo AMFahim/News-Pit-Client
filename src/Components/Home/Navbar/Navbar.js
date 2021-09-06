@@ -14,8 +14,9 @@ const Navbar = () => {
           <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div className="navbar-nav">
               <Link to="/" className="nav-link active ms-3 text-light hoverNav" aria-current="page" href="#"><b>HOME</b></Link>
-              <Link to="/" className="nav-link ms-3 text-light hoverNav" href="#"><b>CATEGORY</b></Link>
-              <Link to="/" className="nav-link ms-3 text-light hoverNav" href="#"><b>DASHBOARD</b></Link>
+              <Link to="/" className="nav-link ms-3 text-light hoverNav" href="#"><b>ABOUT</b></Link>
+              <Link to="/addArticle" className="nav-link ms-3 text-light hoverNav" href="#"><b>DASHBOARD</b></Link>
+              <Link to="/" className="nav-link ms-3 text-light hoverNav" href="#"><b>CONTACT US</b></Link>
               <Link to="/" className="nav-link ms-3 text-light" href="#"><button className="btn btn-secondary">SIGN IN</button></Link>
             </div>
           </div>
