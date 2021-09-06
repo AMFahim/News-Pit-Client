@@ -29,7 +29,7 @@ const Article = [
     Description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, esse!"
   },
   {
-    _id: 3,
+    _id: 4,
     title: "best king in the world",
     author: "Abul Kalam",
     img: Banner1,
@@ -43,16 +43,16 @@ const AllArticles = () => {
     <div className="container text-center">
       <div className="pt-5">
         <h1>[ Upgrade <span className="text-muted">News</span> ]</h1>
-        <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        <div className="dropdown">
+          <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
             CATEGORY
           </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><Link to="/" class="dropdown-item" href="#">Business</Link></li>
-            <li><Link to="/" class="dropdown-item" href="#">Entertainment</Link></li>
-            <li><Link to="/" class="dropdown-item" href="#">Politics</Link></li>
-            <li><Link to="/" class="dropdown-item" href="#">Sports</Link></li>
-            <li><Link to="/" class="dropdown-item" href="#">International</Link></li>
+          <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><Link to="/" className="dropdown-item" href="#">Business</Link></li>
+            <li><Link to="/" className="dropdown-item" href="#">Entertainment</Link></li>
+            <li><Link to="/" className="dropdown-item" href="#">Politics</Link></li>
+            <li><Link to="/" className="dropdown-item" href="#">Sports</Link></li>
+            <li><Link to="/" className="dropdown-item" href="#">International</Link></li>
           </ul>
         </div>
       </div>

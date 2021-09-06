@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Articles = ({ article }) => {
-  console.log(article)
   return (
       <div className="col-md-6 pt-5 for-articles text-center align-center">
         <div className="card mb-3" style={{ maxWidth: "540px" }}>
