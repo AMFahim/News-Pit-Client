@@ -44,16 +44,16 @@ const AllArticles = () => {
       <div className="pt-5">
         <h1>[ Upgrade <span className="text-muted">News</span> ]</h1>
         <div className="dropdown">
-          <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-            CATEGORY
-          </button>
-          <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><Link to="/" className="dropdown-item" href="#">Business</Link></li>
-            <li><Link to="/" className="dropdown-item" href="#">Entertainment</Link></li>
-            <li><Link to="/" className="dropdown-item" href="#">Politics</Link></li>
-            <li><Link to="/" className="dropdown-item" href="#">Sports</Link></li>
-            <li><Link to="/" className="dropdown-item" href="#">International</Link></li>
-          </ul>
+        <select style={{ maxWidth: "400px" }} className="btn btn-secondary responsive-input" required>
+            <option disabled={true} className="text-dark" value="Not set">Select Category</option>
+            <option value="All">All</option>
+            <option value="Business">Business</option>
+            <option value="Entertainment">Entertainment</option>
+            <option value="Politics">Politics</option>
+            <option value="Sports">Sports</option>
+            <option value="International">International</option>
+            <option value="Not set">Other</option>
+          </select>
         </div>
       </div>
       <div className="row container justify-content-center">
