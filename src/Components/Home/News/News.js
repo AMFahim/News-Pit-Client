@@ -6,7 +6,7 @@ const News = ({ news }) => {
       <div>
         <h1>{news.title}</h1>
         <p>Author: {news.author}</p>
-        <img style={{ height: "300px" }} src={news.imageURL} alt="" />
+        <img style={{ maxHeight: "300px" }} src={news.imageURL} alt="" />
       </div>
       <br />
       <br />

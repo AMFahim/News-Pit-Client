@@ -10,6 +10,7 @@ import AddAdmin from './Components/Dashboard/AddAdmin/AddAdmin';
 import { createContext, useState } from 'react';
 import Login from './Components/Login/Login';
 import NewsDetails from './Components/Home/NewsDetails/NewsDetails';
+import PrivateRoute from './Components/Login/PrivateRoute';
 
 
 export const UserContext = createContext();
@@ -24,12 +25,12 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/addArticle">
+          <PrivateRoute path="/addArticle">
             <AddArticle />
-          </Route>
-          <Route path="/addAdmin">
+          </PrivateRoute>
+          <PrivateRoute path="/addAdmin">
             <AddAdmin />
-          </Route>
+          </PrivateRoute>
           <Route path="/login">
             <Login/>
           </Route>
