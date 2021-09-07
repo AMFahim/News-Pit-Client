@@ -19,7 +19,7 @@ const AddArticle = () => {
       category: data.category,
       imageURL: imageURL,
     }
-    const url = 'http://localhost:5000/addNews';
+    const url = 'https://boiling-beyond-51301.herokuapp.com/addNews';
     fetch(url, {
       method: "POST",
       headers: {'Content-Type': 'application/json'},

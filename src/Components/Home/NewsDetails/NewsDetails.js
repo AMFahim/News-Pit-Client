@@ -9,7 +9,7 @@ const NewsDetails = () => {
   const [newsDetail, setNewsDetail] = useState([])
 
   useEffect(() => {
-    const url = `http://localhost:5000/news?${_id}`
+    const url = `https://boiling-beyond-51301.herokuapp.com/news?${_id}`
     fetch(url)
     .then(res => res.json())
     .then(data => setNewsDetail(data))

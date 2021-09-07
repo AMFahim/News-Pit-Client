@@ -8,7 +8,7 @@ const AllArticles = () => {
   const [Article, setArticle] = useState([])
 
   useEffect(() => {
-    const url = 'http://localhost:5000/news';
+    const url = 'https://boiling-beyond-51301.herokuapp.com/news';
     fetch(url)
     .then(res => res.json())
     .then(data => setArticle(data))
