@@ -9,6 +9,7 @@ import AddArticle from './Components/Dashboard/AddArticle/AddArticle';
 import AddAdmin from './Components/Dashboard/AddAdmin/AddAdmin';
 import { createContext, useState } from 'react';
 import Login from './Components/Login/Login';
+import NewsDetails from './Components/Home/NewsDetails/NewsDetails';
 
 
 export const UserContext = createContext();
@@ -31,6 +32,9 @@ function App() {
           </Route>
           <Route path="/login">
             <Login/>
+          </Route>
+          <Route path="/details/:_id">
+            <NewsDetails/>
           </Route>
         </Switch>
       </Router>

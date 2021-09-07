@@ -12,7 +12,7 @@ const Articles = ({ article }) => {
             <div className="col-md-8">
               <div className="card-body">
                 <small className="card-title">{article.title}</small>
-                <Link to="/"><button className="btn text-muted">See More...</button></Link>
+                <Link to={`/details/${article._id}`}><button className="btn text-muted">See More...</button></Link>
               </div>
             </div>
           </div>

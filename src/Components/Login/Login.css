@@ -12,13 +12,13 @@ body{
   font-weight:bold;
 }
 input[type=submit] {
-  background-color: #F8A519;
+  background-color: #CCD1D1;
   border: 1px solid transparent;
   padding:10px;
   transition: all .5s ease-in-out;
 }
 input[type=submit]:hover{
-  border:1px solid #F8A519;
+  border:1px solid #CCD1D1;
   background-color: #fff;
 }
 .login-form a{
@@ -39,8 +39,8 @@ input[type=submit]:hover{
   font-weight:bold;
 }
 .login-others button:hover{
-  border:1px solid #F8A519;
-  background-color:#F8A519;
+  border:1px solid #c1c7c7;
+  background-color:#c1c7c7;
 }
 .login-or{
   position: relative;

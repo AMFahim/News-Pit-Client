@@ -121,7 +121,7 @@ const SignIn = () => {
                                 }
                             </div>
                             <div>
-                                {!newUser && <Link to="#">Forgot Password</Link>}
+                                {!newUser && <Link to="#"><span className="text-secondary">Forgot Password</span></Link>}
                             </div>
                         </div>
                         <input type="submit" variant="warning" value={newUser ? 'Create an account' : 'Login'} className="my-4 btn-block font-weight-bold" />
@@ -132,7 +132,7 @@ const SignIn = () => {
                                 </p>
                                 :
                                 <p className="text-center">Don't have an account?
-                                    <Link to="#" onClick={() => setNewUser(!newUser)}>Create an account</Link>
+                                    <Link to="#" onClick={() => setNewUser(!newUser)}><span className="text-secondary">Create an account</span></Link>
                                 </p>
                         }
 
