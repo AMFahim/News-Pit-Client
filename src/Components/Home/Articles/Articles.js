@@ -7,12 +7,12 @@ const Articles = ({ article }) => {
         <div className="card mb-3" style={{ maxWidth: "540px" }}>
           <div className="row g-0">
             <div className="col-md-4">
-              <img src={article.img} className="img-fluid rounded-start" alt="..." />
+              <img src={article.imageURL} className="img-fluid rounded-start" alt="..." />
             </div>
             <div className="col-md-8">
               <div className="card-body">
-                <h5 className="card-title">{article.title}</h5>
-                <Link to="/"><button className="btn btn-secondary">See More</button></Link>
+                <small className="card-title">{article.title}</small>
+                <Link to="/"><button className="btn text-muted">See More...</button></Link>
               </div>
             </div>
           </div>
